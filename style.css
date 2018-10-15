@@ -1,0 +1,28 @@
+a{
+  color:gray;
+  text-decoration:none
+}
+
+#grid{
+  display:grid;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Nanum Gothic';
+}
+
+#contents{
+  margin : 20px;
+  text-align: center;
+  font-family: 'Nanum Gothic';
+}
+
+#contents a{
+  text-decoration:none
+}
+
+.textpre{
+  padding : 10px;
+}

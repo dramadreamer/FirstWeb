@@ -4,7 +4,7 @@
   <title>Let's study</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="style.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript">
   WebFontConfig = {
     custom: {
@@ -22,7 +22,7 @@
     s.parentNode.insertBefore(wf, s);
   })();
  </script>
-
+<script src = "function.js"></script>
 </head>
 <body>
 <div>
@@ -33,6 +33,9 @@
 </div>
 
 <div id = "contents">
+  <div class="textpre">공부에 관한 도움되는 글 목록입니다.</div>
+  <div id = "TodayWord" >TodayWord</div>
+  <input type="button" class="button" value="Today's wise saying" class = "textpre" onclick="ChangeTodayWord()">
   <div class="textpre"><a href="https://www.slideshare.net/jayjin0427/ss-71896768%20">신입 개발자 생활백서</a></div>
   <div class="textpre"><a href="https://milooy.wordpress.com/2016/07/02/daily-commit-1-year/">일일 커밋 1년 회고</a></div>
   <div class="textpre"><a href="https://www.slideshare.net/jayjin0427/feat-95042760">실전 프론트엔드 개발 - 취직 그리고 이직</a></div>

@@ -15,3 +15,8 @@ function ChangeTodayWord()
   todayWordText.innerHTML = wiseSaying[nRandomValue];
 
 }
+
+function Func()
+{
+    document.write("Func() 호출!!");
+}
